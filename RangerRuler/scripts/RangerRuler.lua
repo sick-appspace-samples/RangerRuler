@@ -32,8 +32,7 @@ local ComponentName = 'Hi3D 1'
 -- ConfigFilePath = "resources/Ruler.prm"
 -- ComponentName = "HorMax 1"
 
-gView = View.create()
-gView:setID('viewer3D')
+gView = View.create('viewer3D1')
 
 gConfig = ScanImages.Provider.RangerRulerConfig.create()
 ScanImages.Provider.RangerRulerConfig.loadConfigXML(gConfig, ConfigFilePath)
