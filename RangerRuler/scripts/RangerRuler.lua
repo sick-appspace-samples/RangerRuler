@@ -20,7 +20,7 @@
 -- luacheck: globals gView gConfig gRangerRuler gTimer gOnNewData gOnExpired
 
 -- Configure IP of sensor here
-local SensorIp = '192.168.0.11'
+local SensorIp = '192.168.1.100'
 
 -- Set parameter and LUT file paths
 local ConfigFilePath = 'resources/Ranger.prm'
