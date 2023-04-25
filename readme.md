@@ -17,4 +17,4 @@ After starting the script, the results can be seen in the PointCloud view
 
 ### Topics
 
-Remote-Device, Point-Cloud, Acquisition, Sample, SICK-AppSpace
+remote-device, point-cloud, acquisition, sample, sick-appspace
