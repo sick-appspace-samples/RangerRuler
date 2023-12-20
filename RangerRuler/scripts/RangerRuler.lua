@@ -56,9 +56,9 @@ Timer.start(gTimer)
 
 --Start of Function and Event Scope---------------------------------------------
 
--- Definition of the callback function which is registered at the driver
--- data contains the image scans
--- encoder contains the corresponding encoder value
+---Definition of the callback function which is registered at the driver
+---data contains the image scans
+---encoder contains the corresponding encoder value
 function gOnNewData(data, _)
   local pointCloud, _ = ScanImages.toPointCloud(data, ComponentName, 0.1)
   View.view(gView, pointCloud)
